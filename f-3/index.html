@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <script src="js/jquery-1.12.3.js"></script>
-    <script src="js/script.js"></script>
+    <script src="jquery-1.12.3/jquery-1.12.3.js"></script>
+    <script src="jquery-1.12.3/script.js"></script>
 
     <title>오픈뱅킹</title>
   </head>
@@ -115,19 +115,25 @@
           <ul class="slide-list">
             <li>
               <a href="#">
-                <img src="https://picsum.photos/1920/350?random=1" alt="이미지1" />
+                <img
+                  src="https://picsum.photos/1920/350?random=1"
+                  alt="이미지1" />
                 <span>image-1</span>
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="https://picsum.photos/1920/350?random=2" alt="이미지2" />
+                <img
+                  src="https://picsum.photos/1920/350?random=2"
+                  alt="이미지2" />
                 <span>image-2</span>
               </a>
             </li>
             <li>
               <a href="#"
-                ><img src="https://picsum.photos/1920/350?random=3" alt="이미지3" />
+                ><img
+                  src="https://picsum.photos/1920/350?random=3"
+                  alt="이미지3" />
                 <span>image-3</span>
               </a>
             </li>
@@ -159,21 +165,124 @@
         <!-- 배너 -->
         <div class="banner inner">
           <a href="#">
-            <img src="https://picsum.photos/100/100?random=1" alt="배너" />
-            <div class="txt">
-              <p>Lorem ipsum dolor sit amet consectetur</p>
-              <p>Lorem ipsum dolor sit amet consectet  dolor sit amet consectetur dolor sit amet consectetu</p>
+            <div class="left">
+              <img src="https://picsum.photos/100/100?random=1" alt="배너" />
+              <div class="txt">
+                <p>Lorem ipsum dolor sit amet consectetur</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectet dolor sit amet
+                  consectetur dolor sit amet consectetu
+                </p>
+              </div>
             </div>
             <span> > </span>
           </a>
         </div>
         <!-- 탭메뉴 -->
-        <div class="tabmenu inner"></div>
+        <ul class="tabmenu inner">
+          <li class="active">
+            <a href="#">공지사항</a>
+            <div class="notice">
+              <ul>
+                <li>
+                  <a href="#">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsam eaque culpa magni dolores
+                    <span>2024.07.16</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsam eaque culpa magni dolores
+                    <span>2024.07.16</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsam eaque culpa magni dolores
+                    <span>2024.07.16</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsam eaque culpa magni dolores
+                    <span>2024.07.16</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#">갤러리</a>
+            <div class="gallery">
+              <ul>
+                <li>
+                  <a href="#">
+                    <img
+                      src="https://picsum.photos/100/100?random=1"
+                      alt="gal1" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img
+                      src="https://picsum.photos/100/100?random=2"
+                      alt="gal2" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img
+                      src="https://picsum.photos/100/100?random=3"
+                      alt="gal3" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
       </main>
       <!-- 하단 -->
-      <footer class="footer inner"></footer>
+      <footer class="footer inner">
+        <!-- ft-logo -->
+        <a href="#" class="logo btlogo">LOGO</a>
+        <!-- copy -->
+        <div class="btmenu">
+          <ul class="footermenu">
+            <li><a href="#">FOOTERMENU1</a></li>
+            <li><a href="#">FOOTERMENU2</a></li>
+            <li><a href="#">FOOTERMENU3</a></li>
+            <li><a href="#">FOOTERMENU4</a></li>
+            <li><a href="#">FOOTERMENU5</a></li>
+            <li><a href="#">FOOTERMENU6</a></li>
+          </ul>
+          <!-- copy -->
+          <p class="copy">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+            dicta nihil perferendis ipsa molestiae adipisci commodi recusandae.
+            Dicta, voluptate ex, facilis officia eos animi, impedit fugit
+            recusandae ducimus voluptatibus laudantium.
+          </p>
+        </div>
+      </footer>
     </div>
     <!-- modal -->
-    <div id="modal"></div>
+    <div id="modal">
+      <div class="modal-inner">
+        <div class="modal-title">
+          TITLE
+        </div>
+        <div class="modal-body">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium,
+          earum recusandae dicta nesciunt ea voluptates totam voluptas fugit
+          officiis sed ipsum minus, facilis commodi doloribus beatae quidem
+          inventore suscipit neque?
+        </div>
+        <div class="modal-btn">close ❌</div>
+      </div>
+    </div>
   </body>
 </html>
